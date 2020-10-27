@@ -1,4 +1,10 @@
- setInterval(function () {
-    var messageInput = document.getElementById('message');
-    window.alert(messageInput["value"]);
- }, 4000)
+
+let helloMessage = document.getElementById("hello-message");
+window.alert(helloMessage.value);
+
+function alertValue() {
+    console.log('1');
+    console.log('2');
+    console.log('3');
+}
+alertValue();
